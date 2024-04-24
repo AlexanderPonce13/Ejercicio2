@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento, en este caso HTML5 -->
+<html> <!-- Inicio del documento HTML -->
+<head> <!-- Inicio de la cabecera del documento -->
+<title>Formulario de prueba de HTML5</title> <!-- Título que aparecerá en la pestaña del navegador -->
+</head> <!-- Fin de la cabecera del documento -->
+<body> <!-- Inicio del cuerpo del documento, aquí va el contenido principal -->
+
+<form action="" method="get"> <!-- Inicio del formulario, los datos se enviarán a la URL especificada en el atributo 'action' usando el método 'get' -->
+<p> <!-- Inicio de un párrafo -->
+Nombre: <input type="text" name="name_control" autofocus required /> <!-- Campo de texto para el nombre, autofocus indica que este campo tendrá el foco cuando se cargue la página, required indica que este campo es obligatorio -->
+</p> <!-- Fin del párrafo -->
+<!-- Se repite el mismo patrón para los demás campos del formulario, cambiando el tipo de input y el nombre según corresponda -->
+<p>
+Correo electrónico: <input type="email" name="email_control" required />
+</p>
+
+<p>
+URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" />
+</p>
+
+<p>
+Fecha: <input type="date" name="date_control" />
+</p>
+
+<p>
+Tiempo: <input type="time" name="time_control" />
+</p>
+
+<p>
+Fecha y hora: <input type="datetime" name="datetime_control" />
+</p>
+
+<p>
+Mes: <input type="month" name="month_control" />
+</p>
+
+<p>
+Semana: <input type="week" name="week_control" />
+</p>
+
+<p>
+Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+</p>
+
+<p>
+Teléfono: <input type="tel" name="tel_control" />
+</p>
+
+<p>
+Término de búsqueda: <input type="search" name="search_control" />
+</p>
+
+<p>
+Color favorito: <input type="color" name="color_control" />
+</p>
+
+<p>
+<input type="submit" value="Enviar" /> <!-- Botón para enviar el formulario -->
+</p>
+</form> <!-- Fin del formulario -->
+</body> <!-- Fin del cuerpo del documento -->
+</html> <!-- Fin del documento HTML -->
